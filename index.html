@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ISU Artifact B</title>
+  <style>
+    #Front {
+      background-color: rgb(105, 105, 105);
+    }
+
+    #Title {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    #Intro {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    body {
+      background-color: rgb(211, 211, 211);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: rgb(51, 51, 51);
+      color: rgb(255, 255, 255);
+      padding: 15px;
+    }
+
+    #Navigation {
+      background-color: rgb(85, 85, 85);
+      padding: 10px;
+    }
+
+    #Navigation ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #Navigation ul li {
+      margin: 5px 0;
+    }
+
+    #Navigation ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    #Navigation ul li a:hover {
+      text-decoration: underline;
+    }
+
+    main section {
+      margin: 20px;
+    }
+
+    footer {
+      margin: 20px;
+    }
+
+    #ListOne {
+      font-family: Cambria;
+    }
+
+    #ListOne a {
+      color: rgb(0, 128, 0);
+      font-size: 20px;
+    }
+
+    #Sum1 {
+      color: rgb(0, 100, 0);
+      font-size: 20px;
+    }
+    
+    #Image1{
+      position:absolute;
+      top:980px;
+      left:725px;
+      height:300px;
+      border:3px solid red;
+    }
+    
+    #Image2{
+      position:absolute;
+      top:1500px;
+      left:725px;
+      height:300px;
+      border:3px solid red;
+    }
+    
+    #Image3{
+      position:absolute;
+      top:1965px;
+      left:625px;
+      height:250px;
+      border:3px solid red;
+    }
+    
+    #Image4{
+      position:absolute;
+      top:2415px;
+      left:700px;
+      height:250px;
+      border:3px solid red;
+      
+    }
+    
+    #introduction {
+  background-color: rgb(245, 235, 235);
+  padding: 20px;
+}
+
+#central {
+  background-color: rgb(220, 230, 220);
+  padding: 20px;
+}
+
+#spread {
+  background-color: rgb(240, 240, 250);
+  padding: 20px;
+}
+
+#graph {
+  background-color: rgb(240, 230, 240);
+  padding: 20px;
+}
+
+#code {
+  background-color: rgb(190, 200, 200);
+  padding: 20px;}
+  
+#code a{
+  color:rgb(0,0,255);
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div id="container" style="border-top: 3px solid red; ">
+    <header>
+      <div id="Front">
+        <h1 id="Title">ISU Artifact - Part B</h1>
+        <h2 id=Intro>Use the links below to jump to different sections of the webpage</h2>
+      </div>
+      <nav>
+        <div id="Navigation">
+          <ul>
+            <li><a href="#central">Central Tendency </a></li>
+            <li><a href="#spread">Measures of Spread</a></li>
+            <li><a href="#graph">Box Plots & Scatterplots</a></li>
+            <li><a href="#code">Interactive Code</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id = "introduction"><h2> General Knowledge - Organizing Large Amounts of Data</h2>
+      <p>The term <strong>big data</strong> is used to describe extremely large amounts of constantly growing data.</p>
+      <ul id=ListOne>
+      <li><strong>Sample</strong> V.S <strong>Population</strong><br><em>A population is the entire group while a sample is a portion that you will collect data from.<br>In most cases, when calculating variance such as standard deviation of a sample, you devide by n-1 to get an unbiased result</em></li><br>
+      <li><Strong>Why Organizations Collect Data</Strong><br>Organizations collect data to <strong>customize</strong> content and <strong>improve</strong> the user's overall experience<br><em>E.g. Social Media Platforms (Youtube, Snapchat, Instagram) often ask questions about your interests, behaviors and demographics<br>Statistics Canada also conducts a servey called the "Census of Population" which helps the government focus on equity between funds and assistance</em></li><br>
+      <li><strong>How Technology helps with the Collection of Data</strong><br><strong>Biometric Data</strong> involves analysing the physical characteristics of individuals<br>E.g. Common techniques involve: Fingerprint identification, facial regognition (Iphone Models) and voice recognition, (Google Home and Alexa)</li><br>
+      
+      <li><strong>Challenges with utilisation of Big Data</strong><br><em>The data is large and complex to be handled by traditional data-processing softwares<br>High levels of computing power and storage space</em></li>
+      </ul>
+      
+      </section>
+      
+      <section id="central">
+        <h2>Measures of Central Tendency</h2>
+        <p><strong>Central Tendency</strong> is a measure that describes the middle, or average, of a data set. The 3 measures include:</p>
+        <ul id=ListOne>
+          <li><strong>Mean:</strong> The average value of a set.<br>
+        <em>The sample mean is denoted by x̄ while the population is denoted by μ</em></li>
+          <li><strong>Median:</strong> The middle datapoint/term in a sorted set of values. <br>
+          <em>It must be sorted from least to greatest</em></li>
+          <li><strong>Mode:</strong> The most frequently occurring of values. <br><em>There can be one or more modes. Two modes are called bimodal</em></li>
+        </ul>
+        <img src="https://www.uth.tmc.edu/uth_orgs/educ_dev/oser/FIG2_3.GIF" id="Image1">
+        <p>Formulas for calculating these measures:</p>
+        <ul id=ListOne>
+          <li><strong>Mean:</strong> μ = Σx/n and x̄ = Σx/n-1<br><em>For this reason, in a skewed distributed graph, the mean tends to be more affected<br> my the outliers, as you can see it sits near the tail of the right skewed graph in the image <br>to the right</em> </li>
+          <li><strong>Median:</strong> Depends on whether the number of datapoints (n) is odd or even.<br> <em>For n is odd: The median = (n+1)/2 <br>For n is even: The median = (n/2 term + n/2 + 1 term )/2 </em></li>
+          <li><strong>Mode:</strong> The value(s) that occur with the highest frequency.<br><em>In a graph, it sits at the highest point of the graph, which is evident in the image to the <br>right</em></li>
+        </ul>
+      </section>
+
+      <section id="spread">
+        <h2>Measures of Spread</h2>
+        <p><strong>Measures of Spread</strong> describe how varied or similar a set of values are to one another.<br> Common measures include:</p>
+        <ul id="ListOne">
+          <li><strong>Range:</strong> The difference between the maximum and minimum values of a set.</li>
+          <li><strong>Covariance:</strong> A measure of how two variables change together and how one correlates <br>with the other.<br><em>It indicates the direction (positive, negative or no association)</em> </li>
+          <li><strong>Standard Deviation:</strong> A measure of the amount of dispersion of data from one's mean.<br><em>The symbol is denoted by "σ"</em></li>
+          <li><strong>Correlation Coefficient:</strong> A measure of the strength and direction of a linear relationship<br> (correlation) between two variables.<br><em>One way of measuring it is the Pearson's coefficent, which is denoted by "r" and is between <br>-1 and 1 </em></li>
+        </ul>
+        <p>Formulas for calculating these measures:</p>
+        <ul id="ListOne">
+          <li><strong>Range:</strong> Max-Min </li>
+          <li><strong>Covariance:</strong> Cov(X, Y) = Σ(x-x̄)(y-ȳ)/-n-1<br><em>For a sample divide by n if your data is the population</em>  </li>
+          <li><strong>Standard Deviation:</strong> σ = √[Σ(x-x̄)^2/
+          N-1]<br><em>Divide by N if your data is the population<br>The formula subtracts every value from the mean</em></li>
+          <li><strong>Correlation Coefficient:</strong> Σ(x-x̄)(y-ȳ)/√[Σ(x-x̄)^2 Σ(y-ȳ)^2]<br><em>The formula finds the number of standard deviations that can be put into the covariance</em></li>
+          <img src="https://mathcenter.oxford.emory.edu/site/math117/shapeCenterAndSpread/examplesOfSpread.jpg" id="Image2">
+        </ul>
+      </section>
+
+      <section id="graph">
+        <h2>Box Plots & Scatterplots</h2>
+        <p><strong>Graphing</strong> data provides visual representation. Key concepts include:</p>
+        <h3>Box Plots:</h3>
+        <p>Here are the main components of a box plot:</p>
+        <ul id="ListOne">
+        
+          <li><strong>Lower Quartile (Q1):</strong> The median of the lower half of the dataset.</li>
+          <li><strong>Upper Quartile (Q3):</strong> The median of the upper half of the dataset.</li>
+          <li><strong>Median:</strong> The middle datapoint/term of the dataset.</li>
+          <li><strong>Interquartile Range (IQR):</strong> The range between Q1 and Q3.</li>
+          <li><strong>Finding Outliers:</strong> Outliers are displayed beyond the whiskers of a box plot. <em><br>They are defined as outliers if there are beyond the lower and upper quartile by 1.5 the interquartile range</em></li>
+          <img src="https://miro.medium.com/v2/resize:fit:1200/1*0MPDTLn8KoLApoFvI0P2vQ.png" id="Image3">
+        </ul>
+        <h3>Scatterplots:</h3>
+        <ul id="ListOne">
+          <li><strong>Regression Line:</strong> A line that best represents the relationship between two variables.</li>
+        </ul>
+      </section>
+      <a href="https://replit.com/join/biyjszhbal-kchen34">
+<img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/06/Python-Programming-Edureka.png" id="Image4"></a>
+      <section id="code">
+        <h1>Interactive code</h1>
+        <p>Now you can view this concepts incorporated in 2 programs I have created in Python!</p>
+        <a href="https://www.online-python.com/BySVrECc2U">Click on this link to view the code for the mini quiz on General Knowledge</a><br>
+        <a href="https://replit.com/join/biyjszhbal-kchen34">Click on this link to view the code for the calculator</a>
+        <h3>Description:</h3> <p>Calculator of central tendency and measures of spread, as well as graphing data points<br> you input. <br><br><em>In order to calculate the mode and graph the points, you must have installed matplotlib<br> by going to the shell (located beside the console) and typing in "pip install matplotlib," for graphing and "pip install scipy" for mode. If this isn't possible, there are still <br>other tools such as calculating the correlation coefficient, mean, median and covariance.</em></p>
+      </section>
+    </main>
+
+    <footer>
+        <p>Kyle Cheng</p>
+    </footer>
+    </div>
+</body>
+</html>
